@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let number1= parseInt(prompt("enten number 1 : "));
+    let number2= parseInt(prompt(" enter number 2 : "));
+    let result= number1 + number2;
+    let result2= (result < 4 )? "below":(result > 4)? "over":4;
+    switch(result2){
+        case "below":
+            alert("below");
+            break;
+        case "over":
+            alert("over");
+            break;
+        default:
+            alert(result);
+    }
+</script>
+</body>
+</html>

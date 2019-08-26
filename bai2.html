@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let login = prompt("enter the massage: ",'');
+    let message= login=='employee' ?'hello': login=='director'?'greetings' : login==''? 'no login': '';
+    switch (message) {
+        case 'hello':
+            alert('hello');
+            break;
+        case 'greetings':
+            alert('greetings');
+        case '':
+            alert('no login');
+            break;
+        default:
+            alert('');
+    }
+</script>
+</body>
+</html>
